@@ -1,9 +1,10 @@
 @media only screen and (max-height: 899px) {
     .logo-container img {
-         height: 100px;
          width: 200px;
          margin: 10px;
          padding-bottom: 10px;
+	 max-width: 100%;
+         height: auto;
     }
 }
 
