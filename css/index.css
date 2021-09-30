@@ -8,11 +8,6 @@
     }
 }
 
-img {
-	max-width: 100%;
-	height: auto;
-}
-
 body {
     background:rgb(20, 20, 20);
     font-family: 'Roboto Condensed', sans-serif;
@@ -24,8 +19,8 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    height: 100vh;
-    width: 100vw;
+    height: auto;
+    max-width: 100%;
     background-image: url('./backgrounds/abstract-blue2.png');
     background-size: cover;
   	background-repeat: no-repeat;
@@ -40,14 +35,14 @@ body {
     align-items: center;
     position: relative;
     margin: 0;
-    height: 32vh;
-    width: 100vw;
+    height: auto;
+    max-width: 100%;
     justify-content: center;
 }
 
 .logo-container img {
-    height: 300px;
-    width: 600px;
+    height: auto;
+    max-width: 100%;
     margin: 10px;
     padding-bottom: 0px;
 }
@@ -101,6 +96,7 @@ body {
 
 .links-container {
     max-width: calc(28vw + 80px);
+    height: auto;
     padding-top: 75px;
     margin: auto;
 }
