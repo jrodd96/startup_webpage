@@ -6,7 +6,7 @@ function setBackground() {
 			let files = JSON.parse(response);
 			let bgNum = Math.floor((Math.random() * (files.length + 1)));
 			let fileName = files[bgNum];
-			$("body").css("background-image", "url('./backgrounds/" + fileName + "')");
+			/*$("body").css("background-image", "url('./backgrounds/" + fileName + "')");*/
 		}
 	})
 }
