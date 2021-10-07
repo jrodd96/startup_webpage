@@ -118,7 +118,7 @@ a.link-outer {
 
 div.link-icon {
     position: relative;
-    transform: translate(-50%,-50%);
+    /*transform: translate(-50%,-50%);*/
     height: 4vw;
     width: 4vw;
     border-radius: 50%;
