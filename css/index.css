@@ -51,7 +51,7 @@ body {
     height: 55px;
     line-height: 60px;
     width: 35vw;
-    margin: auto;
+    margin-top: 35px;
     display: flex;
     padding: 0 15px;
     background:rgb(228, 228, 228);
