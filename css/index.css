@@ -51,8 +51,9 @@ body {
     height: 55px;
     line-height: 60px;
     width: 35vw;
-    margin: 0;
-    padding: 0 5px;
+    margin: auto;
+    display: flex;
+    padding: 0 15px;
     background:rgb(228, 228, 228);
     border-radius: 30px;
 }
