@@ -173,6 +173,7 @@ div.link-label {
 }
 
 .footer-block {
+    float: left;
     padding-top: 5px;;
     background-color: darkgray;
     position: fixed;
@@ -186,7 +187,7 @@ div.link-label {
 
 .footer-block-left {
     margin: 10px;
-    width: 60%;
+    width: 33.33%;
     height: 6vh;
 }
 
@@ -201,12 +202,15 @@ div.link-label {
 }
 
 .footer-block-right {
-    position: relative;
     margin: 10px;
-    width: 40%;
+    width: 33.33%;
     height: 6vh;
-    display: flex;
-    justify-content: space-between;
+}
+
+.footer-block-middle {
+    width: 33.33%;
+    margin: 10px;
+    height: 6vh;
 }
 
 #footer-block-icons {
