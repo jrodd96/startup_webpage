@@ -23,7 +23,7 @@ body {
     background-image: url(backgrounds/blue_tech.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    filter: blur(5px) brightness(0.50);
+    filter: blur(5px) brightness(0.75);
     position: absolute;
     top: 0; left: 0;
     width: 100%; height: 100%;
