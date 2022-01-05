@@ -7,7 +7,7 @@
 <!-- **** HEAD **** -->
 <head>
   
-  <!-- ??? -->
+  <!-- META -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
@@ -16,7 +16,7 @@
   
   <!-- Link to Google Roboto Font, CSS file, and icon images -->
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="css/index.css">
   <link rel="icon" type="image/png" href="./icons/favicon-16.png" sizes="16x16">
   <link rel="icon" type="image/png" href="./icons/favicon-32.png" sizes="32x32">
 </head>
@@ -25,154 +25,157 @@
 <body>
        
   <!-- Background Img Container -->
-  <div class="background-image-container"></div>
+  <div class="background-image-container">
+    <div class="container-inside">
 
-  <!-- Logo Container (above searchbar like Google) -->
-  <div class="logo-container">
-    <a aria-label="My Website" href="https://jared-stevens1996.com">
-       <img id="logo" src="css/img/jws-logo.png"/>
-    </a>
-  </div>
+      <!-- Logo Container (above searchbar like Google) -->
+      <div class="logo-container">
+        <a aria-label="My Website" href="https://jared-stevens1996.com">
+          <img id="logo" src="css/img/jws-logo.png"/>
+        </a>
+      </div>
   
-  <!-- Searchbar (Google) -->
-  <div class="searchbar-container">
-    <input id="searchbar" type="text" placeholder="Search Google..." autofocus>
-  </div>
+      <!-- Searchbar (Google) -->
+      <div class="searchbar-container">
+        <input id="searchbar" type="text" placeholder="Search Google..." autofocus>
+      </div>
 
-  <!-- Sidebar 
-  <div class="sidebar">
-    <a class="active" href="#">Website</a>
-    <a href="#">Blog</a>
-    <a href="#">Source Repo</a>
-  </div>-->
+      <!-- Sidebar 
+      <div class="sidebar">
+        <a class="active" href="#">Website</a>
+        <a href="#">Blog</a>
+        <a href="#">Source Repo</a>
+      </div>-->
 
-    <!-- ** Icon Links ** -->
-    <div class="links-container">
+      <!-- ** Icon Links ** -->
+      <div class="links-container">
         <div class="grid-container">
 
            <!-- Google Drive -->
-      <a class="link-outer" href="https://drive.google.com/drive/u/1/my-drive">
-        <div class="link-icon">
-          <div class="link-icon-inner">
-            <img src="./icons/google-drive-icon.png">
+          <a class="link-outer" href="https://drive.google.com/drive/u/1/my-drive" target="_blank">
+          <div class="link-icon">
+            <div class="link-icon-inner">
+              <img src="./icons/google-drive-icon.png">
+            </div>
           </div>
-        </div>
-        <div class="link-label">Drive</div>
-      </a>
+          <div class="link-label">Drive</div>
+          </a>
 
           <!-- GitHub -->
-      <a class="link-outer" href="https://github.com/jrodd96">
-        <div class="link-icon">
-          <div class="link-icon-inner">
-            <img src="./icons/github.png">
-          </div>
-        </div>
-        <div class="link-label">GitHub</div>
-      </a>
+          <a class="link-outer" href="https://github.com/jrodd96" target="_blank">
+            <div class="link-icon">
+              <div class="link-icon-inner">
+                <img src="./icons/github.png">
+              </div>
+            </div>
+            <div class="link-label">GitHub</div>
+          </a>
 
           <!-- Linux From Scratch Homepage -->
-      <a class="link-outer" href="http://www.linuxfromscratch.org">
-        <div class="link-icon">
-          <div class="link-icon-inner">
-            <img src="./icons/lfs.png">
-          </div>
-        </div>
-        <div class="link-label">LFS</div>
-      </a>
+          <a class="link-outer" href="http://www.linuxfromscratch.org" target="_blank">
+            <div class="link-icon">
+              <div class="link-icon-inner">
+                <img src="./icons/lfs.png">
+              </div>
+            </div>
+            <div class="link-label">LFS</div>
+          </a>
       
-        <!-- YouTube -->
-      <a class="link-outer" href="https://youtube.com">
-        <div class="link-icon">
-          <div class="link-icon-inner">
-            <img src="./icons/youtube.png">
-          </div>
-        </div>
-        <div class="link-label">YouTube</div>
-      </a>
+          <!-- YouTube -->
+          <a class="link-outer" href="https://youtube.com" target="_blank">
+            <div class="link-icon">
+              <div class="link-icon-inner">
+                <img src="./icons/youtube.png">
+              </div>
+            </div>
+            <div class="link-label">YouTube</div>
+          </a>
 
           <!-- Gmail -->
-      <a class="link-outer" href="https://mail.google.com/mail/u/1/#inbox">
-        <div class="link-icon">
-          <div class="link-icon-inner">
-            <img src="./icons/GMail-icon.png">
-          </div>
-        </div>
-        <div class="link-label">Gmail</div>
-      </a>
+          <a class="link-outer" href="https://mail.google.com/mail/u/1/#inbox" target="_blank">
+            <div class="link-icon">
+              <div class="link-icon-inner">
+                <img src="./icons/GMail-icon.png">
+              </div>
+            </div>
+            <div class="link-label">Gmail</div>
+          </a>
 
-           <!-- 1st Advantage Bank -->
-      <a class="link-outer" href="https://www.1stadvantage.org/">
-        <div class="link-icon">
-          <div class="link-icon-inner">
-            <img src="./icons/bank-icon.png">
-          </div>
-        </div>
-        <div class="link-label">Bank</div>
-      </a>
+          <!-- Truist -->
+          <a class="link-outer" href="https://getstarted.truist.com/#/" target="_blank">
+            <div class="link-icon">
+              <div class="link-icon-inner">
+                <img src="./icons/bank-icon.png">
+              </div>
+            </div>
+            <div class="link-label">Bank</div>
+          </a>
       
-         <!-- Smogon -->
-      <a class="link-outer" href="https://www.smogon.com/dex/ss/pokemon/">
-        <div class="link-icon">
-          <div class="link-icon-inner">
-            <img src="./icons/smogon.png">
-          </div>
-        </div>
-        <div class="link-label">Smogon</div>
-      </a>
+          <!-- Smogon -->
+          <a class="link-outer" href="https://www.smogon.com/dex/ss/pokemon/" target="_blank">
+            <div class="link-icon">
+              <div class="link-icon-inner">
+                <img src="./icons/smogon.png">
+              </div>
+            </div>
+            <div class="link-label">Smogon</div>
+          </a>
 
-         <!-- Pocket -->
-      <a class="link-outer" href="https://app.getpocket.com/">
-        <div class="link-icon">
-          <div class="link-icon-inner">
-            <img src="./icons/pocket-icon.png">
-          </div>
-        </div>
-        <div class="link-label">Pocket</div>
-      </a>
+          <!-- Bluehost -->
+          <a class="link-outer" href="https://my.bluehost.com/hosting/app/#/domains/jared-stevens1996.com" target="_blank">
+            <div class="link-icon">
+              <div class="link-icon-inner">
+                <img src="./icons/pocket-icon.png">
+              </div>
+            </div>
+            <div class="link-label">Bluehost</div>
+          </a>
 
-            <!-- Router (Generic 192.168.0.1 IP addr) -->
-      <a class="link-outer" href="http://192.168.0.1/">
-        <div class="link-icon">
-          <div class="link-icon-inner">
-            <img src="./icons/router-icon.png">
-          </div>
-        </div>
-        <div class="link-label">Network</div>
-      </a>
+          <!-- Router (Generic 192.168.0.1 IP addr) -->
+          <a class="link-outer" href="http://192.168.0.1/">
+            <div class="link-icon">
+              <div class="link-icon-inner">
+                <img src="./icons/router-icon.png">
+              </div>
+            </div>
+            <div class="link-label">Network</div>
+          </a>
 
-            <!-- AWS -->
-      <a class="link-outer" href="https://console.aws.amazon.com/console/home?region=us-east-1#">
-        <div class="link-icon">
-          <div class="link-icon-inner">
-            <img src="./icons/aws.png">
-          </div>
-        </div>
-        <div class="link-label">AWS</div>
-      </a>
+          <!-- AWS -->
+          <a class="link-outer" href="https://console.aws.amazon.com/console/home?region=us-east-1#" target="_blank">
+            <div class="link-icon">
+              <div class="link-icon-inner">
+                <img src="./icons/aws.png">
+              </div>
+            </div>
+            <div class="link-label">AWS</div>
+          </a>
 
           <!-- TechSpot -->
-      <a class="link-outer" href="https://www.techspot.com/">
-        <div class="link-icon">
-          <div class="link-icon-inner">
-            <img src="./icons/techspot-icon.png">
-          </div>
-        </div>
-        <div class="link-label">TechSpot</div>
-      </a>
+          <a class="link-outer" href="https://www.techspot.com/" target="_blank">
+            <div class="link-icon">
+              <div class="link-icon-inner">
+                <img src="./icons/techspot-icon.png">
+              </div>
+            </div>
+            <div class="link-label">TechSpot</div>
+          </a>
 
           <!-- IPVanish -->
-      <a class="link-outer" href="https://account.ipvanish.com/index.php?t=Server%20List">
-        <div class="link-icon">
-          <div class="link-icon-inner">
-            <img src="./icons/vpn.png">
-          </div>
-        </div>
-        <div class="link-label">IPVanish</div>
-      </a>
+          <a class="link-outer" href="https://account.ipvanish.com/index.php?t=Server%20List" target="_blank">
+            <div class="link-icon">
+              <div class="link-icon-inner">
+                <img src="./icons/vpn.png">
+              </div>
+            </div>
+            <div class="link-label">IPVanish</div>
+          </a>
     
         </div>
+      </div>
     </div>
-<!--
+  </div>
+<!-- MAKE NETWORK AND NAS SERVER LINKS IN SIDEBAR OR FOOTER
   <!-- ** Footer ** --
   <footer class="footer-block">
 
