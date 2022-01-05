@@ -20,7 +20,7 @@ body {
 
 .background-image-container::before {
     content: "";
-    background-image: url(./backgrounds/abstract-blue2.jpeg);
+    background-image: url(./backgrounds/blue_tech.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     filter: blur(5px) brightness(0.75);
