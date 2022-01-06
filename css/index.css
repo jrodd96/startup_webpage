@@ -204,6 +204,7 @@ div.link-label {
 }
 
 .footer-block-right {
+    float: right;
     margin: 10px;
     width: 33.33%;
     height: auto;
@@ -215,6 +216,7 @@ div.link-label {
     margin: 10px;
     height: auto;
     padding: 5px 20px 5px 20px;
+    text-align: center;
 }
 
 #footer-block-icons {
