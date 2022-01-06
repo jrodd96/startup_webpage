@@ -190,6 +190,7 @@ div.link-label {
     margin: 10px;
     width: 33.33%;
     height: auto;
+    padding: 5px 35px 5px 20px;
 }
 
 .footer-block-left a {
@@ -206,12 +207,14 @@ div.link-label {
     margin: 10px;
     width: 33.33%;
     height: auto;
+    padding: 5px 20px 5px 35px;
 }
 
 .footer-block-middle {
     width: 33.33%;
     margin: 10px;
     height: auto;
+    padding: 5px 20px 5px 20px;
 }
 
 #footer-block-icons {
