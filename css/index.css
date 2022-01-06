@@ -176,7 +176,7 @@ div.link-label {
 .footer-block {
     float: left;
     padding-top: 5px;;
-    background-color: darkgray;
+    background-color: #fff;
     position: fixed;
     align-items: center;
     justify-content: center;
